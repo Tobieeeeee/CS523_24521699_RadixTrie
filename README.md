@@ -2,14 +2,14 @@
 
 Đây là đồ án môn học xây dựng một ứng dụng từ điển tiếng Anh bằng Python, sử dụng cấu trúc dữ liệu **Radix-Trie** (Patricia Trie) làm chỉ mục để tối ưu hóa bộ nhớ và tốc độ tra cứu.
 
-## 📌 Tính năng nổi bật
+## Tính năng nổi bật
 
 * **Tra cứu siêu tốc:** Tìm kiếm nghĩa của từ với độ phức tạp O(k) (trong đó k là độ dài của từ).
 * **Tối ưu bộ nhớ (Nén nhánh):** Các chuỗi ký tự có chung tiền tố (common prefix) được gộp lại, các node không rẽ nhánh được nén thành một chuỗi duy nhất để tiết kiệm không gian lưu trữ so với Trie thông thường.
 * **Tự động tối ưu cây (Merge):** Khi một mục từ bị xóa, hệ thống sẽ tự động dò tìm và gộp các node rẽ nhánh thừa lại với nhau để duy trì cấu trúc nén gọn gàng nhất.
 * **Trực quan hóa dữ liệu (Live Visualization):** Tích hợp "bảng đen" theo dõi cấu trúc cây. Mỗi thao tác Thêm/Xóa từ đều sẽ lập tức vẽ lại sơ đồ Radix-Trie ra màn hình để minh họa sự thay đổi của dữ liệu theo thời gian thực.
 
-## 📂 Cấu trúc dự án
+## Cấu trúc dự án
 
 ```text
 do_an_tu_dien/
@@ -26,7 +26,7 @@ do_an_tu_dien/
 └── README.md                # Tài liệu giới thiệu dự án
 ```
 
-## 🚀 Cài đặt và Sử dụng
+## Cài đặt và Sử dụng
 
 ### 1. Yêu cầu hệ thống
 * Trình thông dịch: **Python 3.x**
